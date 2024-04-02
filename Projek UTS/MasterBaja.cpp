@@ -109,7 +109,7 @@ int main() {
         cout << "Pemasukan ke-" << jumlahTransaksi + 1 << endl;
         cout << "Nama Pembeli (ketik \"selesai\" untuk mengakhiri): ";
         string namaPembeli;
-        cin.ignore(); // Clear input buffer
+        cin.ignore();
         getline(cin, namaPembeli);
 
         if (namaPembeli == "selesai") {
@@ -134,7 +134,7 @@ int main() {
         cout << "Pengeluaran ke-" << countPengeluaran + 1 << endl;
         cout << "Tujuan Pengeluaran (ketik \"selesai\" untuk mengakhiri): ";
         string tujuanPengeluaran;
-        cin.ignore(); // Clear input buffer
+        cin.ignore();
         getline(cin, tujuanPengeluaran);
 
         if (tujuanPengeluaran == "selesai") {
